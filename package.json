@@ -1,0 +1,29 @@
+{
+  "name": "@nowroom/eslint-config",
+  "version": "1.0.0",
+  "description": "NOW ROOM's ESLint config",
+  "main": "index.js",
+  "author": "NOW ROOM <system@nowroom.jp>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint './presets/**/*.js' && eslint './lib/**/*.js'",
+    "lint:fix": "eslint --fix './presets/**/*.js' && eslint --fix './lib/**/*.js'"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-destructure-keys": "^1.3.5",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-tailwind": "^0.2.1",
+    "eslint-plugin-typescript-sort-keys": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1"
+  }
+}
