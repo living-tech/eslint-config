@@ -4,7 +4,6 @@ module.exports = {
     "../lib/react.js",
     "../lib/typescript.js",
     "../lib/prettier.js",
-    "../lib/prettier-react.js",
     "../lib/prettier-typescript.js",
   ],
 };
